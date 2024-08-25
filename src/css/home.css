@@ -1,0 +1,35 @@
+*{
+    font-family: system-ui;
+}
+
+.card-base{
+    display: flex;
+    gap: 25px;
+}
+
+.card{
+    border-radius: 4px;
+    width: 20vw;
+    height: 30vh;
+    padding: 30px 10px 4px;
+    text-align: center;
+    box-shadow: 1px 1px 8px #00000080;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: start;
+    background-color: #005fbe;
+    color: white;
+}
+
+.card h1{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icon{
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}

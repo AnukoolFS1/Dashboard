@@ -1,0 +1,156 @@
+:root {
+  --baseColer: #233348;
+  --formbaseColer: #c0d5f20f;
+  --fontstyling: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+  --labelcolor: #d9e8fcb2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: var(--baseColer);
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.formbase {
+  display: flex;
+  height: 80vh;
+  width: 80vw;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  background-color: var(--formbaseColer);
+  box-shadow: 2px 2px 10px #00000080;
+  border: 1px solid black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page-headline {
+  align-self: center;
+  font-family: var(--fontstyling);
+  color: #2a7fef;
+  font-size: 50px;
+  margin: 20px 0px 50px;
+}
+
+.log-in-up {
+  color: white;
+  font-size: 35px;
+  font-family: var(--fontstyling);
+}
+
+.inputdiv {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 4px;
+  position: relative;
+}
+
+.user {
+  color: var(--labelcolor);
+  font-family: var(--fontstyling);
+  transition: .2s linear all;
+  font-weight: 600;
+}
+
+.input-style {
+  outline: none;
+  padding: 4px;
+  width: 20vw;
+  height: 5.5vh;
+  font-size: 16px;
+  font-family: var(--fontstyling);
+  font-weight: 700;
+  background-color: #3e5067;
+  border: 1px solid #3e5067;
+  color: #dae3ef;
+  border-radius: 4px;
+}
+
+.input-style:focus+.user {
+  color: royalblue;
+}
+
+.pswrd-shw{
+  /* z-index: 3; */
+  position: absolute;
+  top: 50%;
+  right: 6px;
+}
+
+.button-log {
+  border: none;
+  background-color: #2a7fef;
+  color: white;
+  /* height: 5vh; */
+  border-radius: 4px;
+  padding: 10px 30px 12px; 
+}
+
+.anchors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.anchors p {
+  font-family: var(--fontstyling);
+  text-decoration: none;
+  color: #2a7fef;
+  align-self: center;
+  cursor: pointer;
+}
+
+.anchors p:hover {
+  text-decoration: underline;
+}
+
+.signup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+}
+
+.button-div{
+ align-self: center;
+ padding: 10px;
+}
+
+.inputs-signup{
+  align-self: center;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 10px 30px;
+}
+
+.select{
+  width: 20vw;
+  height: 5.3vh;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 4px;
+  outline: none;
+  background-color: #3e5067;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+

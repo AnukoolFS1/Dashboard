@@ -1,0 +1,70 @@
+:root {
+    --baseColer: #233348;
+    --formbaseColer: #c0d5f20f;
+    --fontstyling: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    --labelcolor: #d9e8fcb2;
+}
+
+.navigator {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: var(--baseColer);
+    color: white;
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: var(--fontstyling);
+    box-shadow: 1px 1px 10px black;
+}
+
+.sbDark {
+    background-color: #171b21;
+}
+
+.sidebar h2 {
+    margin: 10px;
+}
+
+.navs {
+    width: 85%;
+    padding: 14px 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s transform linear;
+    border-radius: 10px;
+}
+
+.navs:hover {
+    background-color: #1774f8;
+    transform: translateY(-2px);
+}
+
+.show-user {
+    transform: translate(0px, 0px);
+}
+
+.hide-user {
+    transform: translate(-17vw);
+}
+
+.sidebar .dash-user {
+    border-top: 1px solid #bbbbbb34;
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+text{
+    background-color: #00ff00;
+}

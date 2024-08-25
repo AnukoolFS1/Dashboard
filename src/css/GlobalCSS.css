@@ -1,0 +1,47 @@
+.bgRed {
+    background-color: orangered !important;
+}
+
+.bgRed li, .bgRed ul{
+    border-color: grey;
+}
+
+.bgRed li:hover{
+    background-color: #ff1e1e;
+}
+
+.bgDark{
+    background-color: #383b43 !important;
+}
+
+.bgDark li:hover{
+    background-color: #ffffff80;
+}
+
+.bgGreen{
+    background-color: #00af00 !important;
+}
+
+.bgGreen li, .bgGreen ul{
+    border-color: limegreen;
+}
+
+.bgGreen li:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.inputRed:focus{
+    background-color: #852c2c;
+}
+
+.inputDark:focus{
+    background-color: #383b43;
+    color: white;
+}
+
+.inputGreen:focus{
+    background-color: #22b522;
+    color: white;
+}
+

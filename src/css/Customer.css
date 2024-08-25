@@ -1,0 +1,58 @@
+.AddCustomers{
+    margin: -20px -15px -10px -21px;
+    padding: 20px 15px 10px 21px;
+    display: flex;
+    border: 1px solid grey;
+    height: 92vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inputdiv-customer{
+    margin: 10px;
+    gap: 15px;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+}
+
+.heading-customers{
+    font-size: 40px;
+    font-family: system-ui;
+    color: whitesmoke;
+    margin: 10px 0; 
+}
+
+.inputdiv-customer input[type="submit"]{
+    align-self: start;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    background-color: #2a7fef;
+    border-radius: 4px;
+}
+
+.displayImg{
+    border: 1px solid black;
+}
+
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    border-radius: 4px;
+}
+table{
+    box-shadow: 3px 3px 15px black;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+.add-cust{
+    margin: 10px;;
+}

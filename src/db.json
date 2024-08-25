@@ -1,0 +1,40 @@
+{
+  "Users": [
+    {
+      "id": "a14e",
+      "name": "Anukool",
+      "phone": "9560095435",
+      "username": "akakool",
+      "city": "Lucknow",
+      "password": "qwerty",
+      "customers": []
+    },
+    {
+      "id": "bfac",
+      "name": "Tanay Saxena",
+      "phone": "7607070646",
+      "username": "tanays269",
+      "city": "New Delhi",
+      "password": "tanay123",
+      "customers": []
+    },
+    {
+      "id": "b584",
+      "name": "Anukool Singh Chauhan",
+      "phone": "09560095435",
+      "username": "lookuna",
+      "city": "Bangalore",
+      "password": "lookuna",
+      "customers": []
+    }
+  ],
+  "customers": [
+    {
+      "id": "b87e",
+      "name": "vijay",
+      "phone": "987654132",
+      "email": "asdf@gmail.com",
+      "location": "New Delhi"
+    }
+  ]
+}
